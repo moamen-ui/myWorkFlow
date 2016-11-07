@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'thesansarabbold';
+    src: url('../fonts/thesansarab-bold_1-webfont.eot');
+    src: url('../fonts/thesansarab-bold_1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/thesansarab-bold_1-webfont.woff2') format('woff2'),
+         url('../fonts/thesansarab-bold_1-webfont.woff') format('woff'),
+         url('../fonts/thesansarab-bold_1-webfont.ttf') format('truetype'),
+         url('../fonts/thesansarab-bold_1-webfont.svg#thesansarabbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'thesansarabplain';
+    src: url('../fonts/thesansarab-plain_1-webfont.eot');
+    src: url('../fonts/thesansarab-plain_1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/thesansarab-plain_1-webfont.woff2') format('woff2'),
+         url('../fonts/thesansarab-plain_1-webfont.woff') format('woff'),
+         url('../fonts/thesansarab-plain_1-webfont.ttf') format('truetype'),
+         url('../fonts/thesansarab-plain_1-webfont.svg#thesansarabplain') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+   direction: rtl;
+   text-align: right;
+}
+.cols {
+    float:right;
+}
+h4 {
+    font-size: 14px;
+}
+.title, .price, h3, h4 {
+      font-family: thesansarabbold;
+}
+.pagination {
+    > li {
+        > a, > span {
+            float: right;
+        }
+        &:first-child {
+            > a, > span {
+                border-bottom-right-radius: 4px;
+                border-top-right-radius: 4px;
+                border-bottom-left-radius: 0px;
+                border-top-left-radius: 0px;
+            }
+        }
+        &:last-child {
+            > a, > span {
+                border-bottom-right-radius: 0px;
+                border-top-right-radius: 0px;
+                border-bottom-left-radius: 4px;
+                border-top-left-radius: 4px;
+            }
+        }
+    }
+}

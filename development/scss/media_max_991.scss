@@ -1,0 +1,17 @@
+@media (max-width: 991px) {
+  .tenders-list {
+    .row:first-child {
+      display: none;
+    }
+    .tenders-item {
+      margin-bottom: 20px;
+      flex-direction: column;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+        > div {
+        border-top: 1px solid #ddd;
+        border-right-width: 0;
+      }
+    }
+  }
+}

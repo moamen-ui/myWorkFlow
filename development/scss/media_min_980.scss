@@ -1,0 +1,9 @@
+@media screen and (min-width: 980px) {
+.selecter .selecter-item:hover, 
+.selecter .selecter-item.selected:hover { background-color: #f3f3f3; }
+.selecter .selecter-item.disabled:hover { }
+
+.selecter:hover .selecter-selected { }
+
+.selecter.disabled .selecter-item:hover { }
+}

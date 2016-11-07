@@ -1,0 +1,10 @@
+.main-container{
+    width: 1020px;
+    margin: 0 auto;
+}
+#small-menu{
+    height: 20px;
+}
+#main-menu{
+    height: 50px;
+}

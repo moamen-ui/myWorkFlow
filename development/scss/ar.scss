@@ -1,0 +1,374 @@
+$grids: 12;
+@font-face {
+    font-family: 'Droid Arabic Kufi';
+    src: url('../fonts/droidkufi-bold-webfont.eot');
+    src: url('../fonts/droidkufi-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/droidkufi-bold-webfont.woff') format('woff'),
+         url('../fonts/droidkufi-bold-webfont.ttf') format('truetype'),
+         url('../fonts/droidkufi-bold-webfont.svg#droid_arabic_kufibold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Droid Arabic Kufi';
+    src: url('../fonts/droidkufi-regular-webfont.eot');
+    src: url('../fonts/droidkufi-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/droidkufi-regular-webfont.woff') format('woff'),
+         url('../fonts/droidkufi-regular-webfont.ttf') format('truetype'),
+         url('../fonts/droidkufi-regular-webfont.svg#droid_arabic_kufiregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body {
+	direction: rtl;
+	font-family:tahoma;
+}
+.fix-margin{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.panel-body h4 {
+    font-weight: normal !important;
+}
+@media (max-width: 992px) {
+  div.col-md-1,
+  div.col-md-2,
+  div.col-md-3,
+  div.col-md-4,
+  div.col-md-5,
+  div.col-md-6,
+  div.col-md-7,
+  div.col-md-8,
+  div.col-md-9,
+  div.col-md-10,
+  div.col-md-11 {
+    float: none !important;
+  }
+  .search-block input[type="submit"] {
+    border-radius: 0;
+  }
+  .first-select .selecter {
+    border-radius: 20px 20px 0 0;
+    border-left: 0;
+    border-bottom: 1px solid #666;
+  }
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11 {
+	float: right !important;
+}
+.userMenu > ul {
+	float: left;
+}
+.navbar-header {
+  float: right;
+}
+.navbar-nav > li {
+	float: right;
+}
+.nav {
+	padding-right: 0;
+}
+@media (max-width: 768px) {
+	.col-md-1,
+	.col-md-2,
+	.col-md-3,
+	.col-md-4,
+	.col-md-5,
+	.col-md-6,
+	.col-md-7,
+	.col-md-8,
+	.col-md-9,
+	.col-md-10,
+	.col-md-11,
+	.userMenu > ul,
+	.navbar-header,
+	.navbar-nav > li
+	 {
+		float: none;
+	}
+}
+menu, ol, ul {
+	padding: 0 40px 0 0;
+}
+.icons-td a {
+	text-align: right;
+	background: url("../images/list-ar.png") no-repeat scroll right center transparent;
+	padding: 0 10px 0 0 ;
+}
+.icons-td a:hover {
+  background: url("../images/list-hover-ar.png") no-repeat scroll right center transparent;
+}
+th {
+  text-align: right;
+}
+.list-group-item {
+	text-align: right;
+}
+.hasChilds .glyphicon-chevron-right {
+	margin-left: 5px;
+}
+.media > .pull-left {
+	float: right !important;
+	margin: 0 0 0 10px;
+}
+.list-group {
+	padding: 0;
+}
+.carousel-caption .col-md-7 {
+	border-left: none;
+	border-right: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 0 20px 0 50px;
+	font-family: tahoma;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: Droid Arabic Kufi, arial !important;
+}
+.panel-heading,
+.panel-heading h3,
+.panel-title,
+.modal-title {
+	font-size: 1.15em;
+	font-family: Droid Arabic Kufi, arial !important;
+}
+#registration-steps span {
+  font-size: 1em !important;
+  font-family: Droid Arabic Kufi, arial !important;
+}
+.panel .panel .panel-heading h3 {
+  font-size: 1em !important;
+  font-family: Droid Arabic Kufi, arial !important;
+}
+.carousel-control.left {
+	background-image: -webkit-gradient(linear, 0 top, 100% top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
+  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.0001) 0), color-stop(rgba(0, 0, 0, 0.5) 100%));
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0, rgba(0, 0, 0, 0.5) 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0, rgba(0, 0, 0, 0.5) 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+	left: auto;
+	right: 2px;
+}
+.carousel-control.right {
+
+	background-image: -webkit-gradient(linear, 0 top, 100% top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.0001)));
+  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.5) 0), color-stop(rgba(0, 0, 0, 0.0001) 100%));
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.0001) 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.0001) 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+	right: auto;
+	left: 2px;
+}
+.pagination > li > a,
+.pagination > li > span {
+    float: right;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+}
+.tooltip {
+    white-space: nowrap;
+}
+.pull-left {
+    float: right !important;
+}
+.pull-right {
+    float: left !important;
+}
+.navbar-right {
+  float: left !important;
+}
+.navbar-left {
+  float: right !important;
+}
+.navbar-nav {
+    float: right;
+}
+.dropdown-menu {
+	right: 0;
+	left: auto;
+}
+.collapse.navbar-collapse.navbar-ex1-collapse {
+  padding: 0;
+}
+.navbar-nav > li > a {
+}
+.navbar > .container .navbar-brand {
+    margin:0; 
+}
+#registration-steps span span {
+  background: url("../images/step-current-ar.png") no-repeat scroll center center;
+  float: left;
+}
+.step-done span {
+  background: url("../images/step-done-ar.png") no-repeat scroll center center !important;
+  float: left;
+}
+.pager {
+  padding:0 !important;
+}
+.pager .previous > input {
+    float: right;
+}
+.pager .next > input {
+  float: left;
+}
+.btn-danger .glyphicon-remove:before {
+  margin-left: 3px;
+  margin-right: 0px;
+}
+.list-group-item .glyphicon-ok {
+  margin-right: 0px;
+  margin-left: 5px;
+}
+.vendor-edit{
+    float: left;
+}
+.welcome-panel .panel-body img {
+	margin: 0 0 0 15px;
+}
+.carousel-caption {
+	font-family: Droid Arabic Kufi,arial;
+    font-size: 1.5em;
+}
+.search-block input[type="text"] {
+  padding-left: 75px;
+  padding-right: 10px;
+}
+.search-block input[type="submit"] {
+  right: auto;
+  left: 0;
+}
+label.btn {
+  background-image: url(../images/radio-bg-r.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 25px;
+  padding-left: 6px;
+}
+label.btn.active {
+  background-image: url(../images/radio-sel-r.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+.newsBar span {
+  float:right !important;
+  padding: 5px 10px 5px 5px ;
+}
+#ticker {
+  padding: 5px 10px 0 0 ;
+}
+.nav-tabs > li {
+  float:right !important;
+}
+.tender-details li.list-group-item strong {
+  margin-right: 0px;
+  margin-left: 5px;
+  text-align: right;
+}
+form {
+	@for $i from 1 through $grids {
+	  .col-md-#{$i} {
+	  	float:right;
+	  }
+	}
+}
+.btn .glyphicon {
+  margin:0 0 0 5px; 
+}
+.btn-group > .btn:last-child:not(:first-child),
+.btn-group > .dropdown-toggle:not(:first-child) {
+  border-radius: 4px 0 0 4px;
+}
+
+.btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+  border-radius: 0 4px 4px 0;
+}
+.online {
+    float: left;
+}
+.online span {
+    font-size: 1em !important;
+    font-family: Droid Arabic Kufi, arial !important;
+    padding-right:5px;
+}
+.online-side {
+    padding-left:5px;
+}
+.online-icon {
+    background-image: url(../images/online.png);
+    background-position:left top;
+    background-repeat:no-repeat;
+}
+td.online-icon {
+    padding-left: 45px !important;
+}
+.bs-callout {
+    border-right: 3px solid;
+    border-left: none;
+    height: 74px;
+}
+.list-group-item .badge {
+    float: left !important;
+}
+.input-group .form-control:first-child,
+.input-group-addon:first-child,
+.input-group-btn:first-child > .btn,
+.input-group-btn:first-child > .dropdown-toggle,
+.input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle) {
+    border-radius: 0 4px 4px 0;
+    border-left: 0;
+    border-right:1px solid #cccccc;
+}
+.input-group .form-control:last-child,
+.input-group-addon:last-child,
+.input-group-btn:last-child > .btn,
+.input-group-btn:last-child > .dropdown-toggle,
+.input-group-btn:first-child > .btn:not(:first-child) {
+    border-radius: 4px 0 0 4px;
+}
+.jcarousel-skin-tango {
+	.jcarousel-item {
+		.gov-logo-home {
+		    float: right;
+		    margin-left:10px;
+		    margin-right:0;
+		}
+	}
+}
+.footerContainer {
+	text-align: right;
+	li {
+	  list-style-image: url("../images/list-img-ar.png");
+	}
+}
+.tenders-list {
+	.tenders-item {
+		.gov-logo-home {
+			float: right;
+    		margin: 5px 0px 10px 15px;
+		}
+		.price {
+		    left: 10px;
+		    right: auto;
+		}
+		> div {
+		    padding: 10px;
+		    
+		    &:first-child {
+				border-width: 0;
+		    }
+		}
+	}
+}
