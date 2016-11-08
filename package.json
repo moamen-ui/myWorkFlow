@@ -15,7 +15,18 @@
   },
   "homepage": "https://github.com/moamen-ui/myworkflow#readme",
   "devDependencies": {
+    "autoprefixer": "^6.5.2",
     "gulp": "^3.9.1",
-    "gulp-util": "^3.0.7"
+    "gulp-browserify": "^0.5.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-postcss": "^6.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-uglifycss": "^1.0.6",
+    "gulp-util": "^3.0.7",
+    "jquery": "^3.1.1"
   }
 }

@@ -1,6 +1,9 @@
 .DS_Store
 node_modules
+compiled
 .tmp
 .sass-cache
-development/**/images/*
-development/**/fonts/*
+development/images/
+development/fonts/
+development/scss/
+development/js/
